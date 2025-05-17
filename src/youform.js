@@ -60,7 +60,3 @@ export default function youFormFunc() {
     });
   });
 }
-document.addEventListener("DOMContentLoaded", youFormFunc),
-  document.addEventListener("livewire:navigate", () => {
-    console.log("navigate"), setTimeout(youFormFunc, 1500);
-  });
